@@ -1,0 +1,412 @@
+.card1,
+.card2 {
+  width: 1500px;
+  margin: 3rem auto;
+  background-color: #fc916a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 25.8rem;
+  padding-top: 4.5rem;
+}
+.image,
+.image2 {
+  display: flex;
+  justify-content: center;
+}
+.image,
+.icon1,
+.image2,
+.icon2 {
+  display: flex;
+  justify-content: space-around;
+  width: 950px;
+}
+.icon1,
+.icon2 {
+  width: 2.8rem;
+  height: 3.6rem;
+}
+.section,
+.section2,
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.desc,
+.desc2,
+.desc3,
+.desc4,
+.desc5,
+.desc6 {
+  color: white;
+  font-weight: 400;
+  font-size: 1.9rem;
+  width: 31.4rem;
+  height: 7.5rem;
+  text-align: center;
+  line-height: auto;
+}
+.para,
+.para2 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: auto;
+}
+.bottomImage,
+.bottomImage2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 7.1rem;
+  margin-bottom: 4.2rem;
+}
+.card2 {
+  background-color: #436073;
+}
+.card3,
+.card4 {
+  margin: 3rem auto;
+  width: 1500px;
+  height: 25.8rem;
+}
+.image3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+.icon3 {
+  width: 2.8rem;
+  height: 3.6rem;
+}
+.para3,
+.para5,
+.para6 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: auto;
+  margin-top: 1rem;
+}
+.image4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.quotes {
+  width: 6.2rem;
+  height: 5.3rem;
+  padding-top: 2.8rem;
+  padding-left: 3.3rem;
+}
+.icon4 {
+  height: 4.2rem;
+  width: 3.3rem;
+  margin-top: 2.1rem;
+  margin-right: 3.2rem;
+}
+.desc4,
+.desc5,
+.desc6 {
+  text-align: left;
+}
+.section4 {
+  margin-top: 2.7rem;
+  margin-left: 3.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.card4,
+.card3 {
+  position: relative;
+}
+.card4:after,
+.card3:after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.desc3,
+.desc4,
+.para3,
+.icon4,
+.icon3,
+.quotes {
+  z-index: 1;
+}
+.button {
+  all: unset;
+  margin-top: 2.5rem;
+  padding: 0.6rem 1.25rem 0.6rem 1.25rem;
+  text-align: center;
+  border: 1px solid transparent;
+  background-color: #fc916a;
+  border-radius: 0.6rem;
+  width: 16.6rem;
+  height: 2.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: auto;
+}
+.card5,
+.card6 {
+  margin: 3rem auto;
+  background-color: #436073;
+  display: flex;
+  justify-content: space-around;
+  width: 94rem;
+  height: 25.8rem;
+}
+.image5 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4.5rem;
+  margin-left: 6.25rem;
+}
+.icon5,
+.icon6 {
+  margin-top: 4.5rem;
+  margin-bottom: 3rem;
+  width: 2.8rem;
+  height: 3.6rem;
+}
+.section5,
+.section6 {
+  line-height: auto;
+  height: 7.5rem;
+  width: 31.4rem;
+}
+.person {
+  display: flex;
+  justify-content: flex-end;
+}
+.persons {
+  margin-top: 3.2rem;
+  z-index: 1;
+  width: 26rem;
+  height: 22.6rem;
+}
+.card6 {
+  background-color: #fc916a;
+}
+
+@media (min-width: 1600px) {
+  .desc,
+  .desc2,
+  .desc3,
+  .desc4,
+  .desc5,
+  .desc6 {
+    font-size: calc(0.9rem + 0.5vw);
+  }
+  .para.para2,
+  .para3,
+  .para5,
+  .para6 {
+    font-size: 1.6rem;
+  }
+}
+
+/* @media (max-width: 420px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+  .icon {
+    display: none;
+  }
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6 {
+    margin: 0;
+    margin-bottom: 4rem;
+    height: 844px;
+    width: auto;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon1,
+  .icon2 {
+    margin-left: -100px;
+    margin-top: 50px;
+  }
+  .para,
+  .para2 {
+    text-align: left;
+    font-size: 40px;
+    margin-top: 150px;
+    margin-right: 50px;
+  }
+  .desc,
+  .desc2 {
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    width: 920px;
+  }
+  .desc3 {
+    width: 920px;
+    text-align: center;
+    font-size: 60px;
+  }
+  .para3 {
+    font-size: 40px;
+    margin-top: 150px;
+  }
+  .icon3 {
+    margin-top: -250px;
+    margin-right: -850px;
+  }
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .icon4 {
+    margin-top: -620px;
+  }
+  .section4 {
+    margin-right: 50px;
+  }
+  .desc4 {
+    width: 920px;
+    font-size: 60px;
+    text-align: center;
+  }
+  .button {
+    height: 100px;
+    width: 450px;
+    font-size: 28px;
+    margin-left: 200px;
+    margin-top: 150px;
+  }
+  .section5,
+  .section6 {
+    margin-bottom: 580px;
+  }
+  .desc5,
+  .desc6 {
+    font-size: 60px;
+  }
+  .para5,
+  .para6 {
+    margin-top: 350px;
+    font-size: 40px;
+  }
+  .circle {
+    margin-top: 425px;
+  }
+  .persons {
+    margin-top: 480px;
+  }
+} */
+@media (max-width: 420px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .icon {
+    display: none;
+  }
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+  }
+  .image,
+  .image2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .image3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+  }
+  .icon3 {
+    margin-top: 80px;
+  }
+  .section,
+  .section2,
+  .section3 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+  }
+  .section5,
+  .section6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 700px;
+    height: 100%;
+  }
+  .desc,
+  .desc2,
+  .desc3,
+  .desc4 {
+    text-align: center;
+  }
+  .desc,
+  .desc2,
+  .desc3,
+  .desc4,
+  .desc5,
+  .desc6 {
+    font-size: 60px;
+    width: 900px;
+  }
+  .para,
+  .para2,
+  .para3,
+  .para5,
+  .para6 {
+    font-size: 40px;
+  }
+  .para5,
+  .para6 {
+    margin-top: 7rem;
+  }
+  .button {
+    width: 500px;
+    font-size: 30px;
+    margin-top: 9rem;
+    margin-left: 7rem;
+  }
+  .person {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+  }
+}
